@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
-    <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="input-group">
-            <input type="text" required>
-            <label for="">Surname</label>
-        </div>
-        
-        <div class="input-group">
-            <input type="password" required>
-            <label for="">Password</label>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>creative</title>
+    <style>
+      #deno {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    color changing
+    <h2 id="color" style="color: gray">black and white</h2>
+    <button onclick="miro()">change</button>
+    <p id="deno">Text color changing by clicking the button</p>
+    <p id="demo"></p>
+    <script>
+      let x = 10;
+      let b = 12;
+      function value() {
+        if (1 < 0) {
+          return " my name is vim";
+        } else {
+          return " my name is not vim";
+        }
+      }
+      document.getElementById("demo").innerHTML = value();
 
-      </body>
-    </html>
+      function miro() {
+        let change = document.getElementById("color");
+        let mange = (change.style.background = "gold");
+      }
+      function miro() {
+        let paragraph = document.getElementById("deno");
+        // let change = (paragraph.style.color = "blue");
+        if (paragraph != "blue") {
+          paragraph.style.color = "black";
+        } else {
+          paragraph.style.color = "pink";
+        }
+        let black = (document.body.style.backgroundColor = "black");
+      }
+
+      console.log(document.body.innerHTML);
+      document.innerHTML = "vim";
+      document.title = 'vim'
+    </script>
+  </body>
+</html>
