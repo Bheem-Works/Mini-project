@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="heading">
+          <h1 class="City"></h1>
+          <h1>Weather</h1>
+        </div>
+        <div class="search-div">
+          <input type="text" class="weatherCity" />
+          <button class="search-btn">search</button>
+        </div>
+        <div class="flexingData">
+          <div class="temp">
+            <img
+              src="./img/temperature.svg"
+              alt="temp icon"
+              style="width: 50px"
+            />
+            <h1 class="tempH1"></h1>
+          </div>
+          <div class="humid">
+            <img
+              src="./img/humidity.svg"
+              alt="humidity icon"
+              style="width: 50px"
+            />
+
+            <h1 class="humidH1"></h1>
+          </div>
+          <div class="latitude">
+            <img
+              src="./img/latitude.svg"
+              alt="latitude icon"
+              style="width: 50px"
+            />
+            <h1 class="latitudeH1"></h1>
+          </div>
+          <div class="longitude">
+            <img
+              src="./img/longitude.svg"
+              alt="longitude icon"
+              style="width: 50px"
+            />
+            <h1 class="longitudeH1"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+=======
+    <title>creative</title>
+    <style>
+      #deno {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    color changing
+    <h2 id="color" style="color: gray">black and white</h2>
+    <button onclick="miro()">change</button>
+    <p id="deno">Text color changing by clicking the button</p>
+    <p id="demo"></p>
+    <script>
+      let x = 10;
+      let b = 12;
+      function value() {
+        if (1 < 0) {
+          return " my name is vim";
+        } else {
+          return " my name is not vim";
+        }
+      }
+      document.getElementById("demo").innerHTML = value();
+
+      function miro() {
+        let change = document.getElementById("color");
+        let mange = (change.style.background = "gold");
+      }
+      function miro() {
+        let paragraph = document.getElementById("deno");
+        // let change = (paragraph.style.color = "blue");
+        if (paragraph != "blue") {
+          paragraph.style.color = "black";
+        } else {
+          paragraph.style.color = "pink";
+        }
+        let black = (document.body.style.backgroundColor = "black");
+      }
+
+      console.log(document.body.innerHTML);
+      document.innerHTML = "vim";
+      document.title = 'vim'
+    </script>
+  </body>
+>>>>>>> origin/main
+</html>
